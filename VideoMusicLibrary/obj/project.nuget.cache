@@ -1,0 +1,26 @@
+{
+  "version": 2,
+  "dgSpecHash": "DYpOGa9FO511pDl5eQA3BHC3gj3HK32KKFY1sNX176gvUab0NBcDJn+tU685Cigimv9nnRqSAML4VgPhqZ7Ujw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\frane\\source\\repos\\VideoMusicLibrary\\VideoMusicLibrary.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\frane\\.nuget\\packages\\mediatoolkit\\1.1.0.1\\mediatoolkit.1.1.0.1.nupkg.sha512",
+    "C:\\Users\\frane\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\frane\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\frane\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\frane\\.nuget\\packages\\videolibrary\\3.0.6\\videolibrary.3.0.6.nupkg.sha512",
+    "C:\\Users\\frane\\.nuget\\packages\\xabe.ffmpeg\\4.3.1\\xabe.ffmpeg.4.3.1.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'MediaToolkit 1.1.0.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETStandard,Version=v2.0'. This package may not be fully compatible with your project.",
+      "libraryId": "MediaToolkit",
+      "targetGraphs": [
+        ".NETStandard,Version=v2.0"
+      ]
+    }
+  ]
+}

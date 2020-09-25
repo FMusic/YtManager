@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "yPfvKvEpb94OYM9HrduMnL8CjYwN4dmRwWh98yhay9JPYqOZFiZe2bJ6tnGB2q4qne7be5ybZerrV5R2FgLtbQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\frane\\source\\repos\\VMDownloaderXamarin\\VMDownloaderXamarin.iOS\\VMDownloaderXamarin.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\frane\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.3.1\\xamarin.essentials.1.3.1.nupkg.sha512",
+    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\4.4.0.991265\\xamarin.forms.4.4.0.991265.nupkg.sha512"
+  ],
+  "logs": []
+}
