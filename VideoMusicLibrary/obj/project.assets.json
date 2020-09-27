@@ -302,11 +302,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\frane\\source\\repos\\VideoMusicLibrary\\VideoMusicLibrary.csproj",
+      "projectUniqueName": "C:\\Users\\frane\\source\\repos\\FMusic\\YtManager\\VideoMusicLibrary\\VideoMusicLibrary.csproj",
       "projectName": "VideoMusicLibrary",
-      "projectPath": "C:\\Users\\frane\\source\\repos\\VideoMusicLibrary\\VideoMusicLibrary.csproj",
+      "projectPath": "C:\\Users\\frane\\source\\repos\\FMusic\\YtManager\\VideoMusicLibrary\\VideoMusicLibrary.csproj",
       "packagesPath": "C:\\Users\\frane\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\frane\\source\\repos\\VideoMusicLibrary\\obj\\",
+      "outputPath": "C:\\Users\\frane\\source\\repos\\FMusic\\YtManager\\VideoMusicLibrary\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"

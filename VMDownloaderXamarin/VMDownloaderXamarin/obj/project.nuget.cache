@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vSUJb1tWYL4gdwCBmwZr1v4AbTCBf1CBYDC+aW+INTRfukzIPYITce8COmmPpvpK1GYNJaWz0Daxl3BRFwaltA==",
+  "dgSpecHash": "A09K42IclsBNu4HE2DXV4tHTSEU4Gui7s2Rly0URjY9dh6Sl5rJvQsfXklBTZe1gEPV556aLCVAyRSNUILwe8A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\frane\\source\\repos\\VMDownloaderXamarin\\VMDownloaderXamarin\\VMDownloaderXamarin.csproj",
+  "projectFilePath": "C:\\Users\\frane\\source\\repos\\FMusic\\YtManager\\VMDownloaderXamarin\\VMDownloaderXamarin\\VMDownloaderXamarin.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\frane\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\frane\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",

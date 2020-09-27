@@ -31,7 +31,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.label1 = new System.Windows.Forms.Label();
             this.tabControl1 = new System.Windows.Forms.TabControl();
-            this.tab1 = new System.Windows.Forms.TabPage();
+            this.yt = new System.Windows.Forms.TabPage();
             this.lblStatus = new System.Windows.Forms.Label();
             this.lblProgress = new System.Windows.Forms.Label();
             this.pbDownload = new System.Windows.Forms.ProgressBar();
@@ -40,7 +40,7 @@
             this.btnLoad = new System.Windows.Forms.Button();
             this.tbLink = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.tab2 = new System.Windows.Forms.TabPage();
+            this.vidconv = new System.Windows.Forms.TabPage();
             this.lblStat = new System.Windows.Forms.Label();
             this.lblPickedFile = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -50,9 +50,10 @@
             this.tbMain = new System.Windows.Forms.TextBox();
             this.cbMusic = new System.Windows.Forms.CheckBox();
             this.cbVideo = new System.Windows.Forms.CheckBox();
+            this.mp34tag = new System.Windows.Forms.TabPage();
             this.tabControl1.SuspendLayout();
-            this.tab1.SuspendLayout();
-            this.tab2.SuspendLayout();
+            this.yt.SuspendLayout();
+            this.vidconv.SuspendLayout();
             this.SuspendLayout();
             // 
             // label1
@@ -66,8 +67,9 @@
             // 
             // tabControl1
             // 
-            this.tabControl1.Controls.Add(this.tab1);
-            this.tabControl1.Controls.Add(this.tab2);
+            this.tabControl1.Controls.Add(this.yt);
+            this.tabControl1.Controls.Add(this.vidconv);
+            this.tabControl1.Controls.Add(this.mp34tag);
             this.tabControl1.Location = new System.Drawing.Point(17, 16);
             this.tabControl1.Margin = new System.Windows.Forms.Padding(4);
             this.tabControl1.Name = "tabControl1";
@@ -75,24 +77,24 @@
             this.tabControl1.Size = new System.Drawing.Size(656, 521);
             this.tabControl1.TabIndex = 1;
             // 
-            // tab1
+            // yt
             // 
-            this.tab1.Controls.Add(this.lblStatus);
-            this.tab1.Controls.Add(this.lblProgress);
-            this.tab1.Controls.Add(this.pbDownload);
-            this.tab1.Controls.Add(this.btnDownload);
-            this.tab1.Controls.Add(this.lblVideoTitle);
-            this.tab1.Controls.Add(this.btnLoad);
-            this.tab1.Controls.Add(this.tbLink);
-            this.tab1.Controls.Add(this.label2);
-            this.tab1.Location = new System.Drawing.Point(4, 25);
-            this.tab1.Margin = new System.Windows.Forms.Padding(4);
-            this.tab1.Name = "tab1";
-            this.tab1.Padding = new System.Windows.Forms.Padding(4);
-            this.tab1.Size = new System.Drawing.Size(648, 492);
-            this.tab1.TabIndex = 0;
-            this.tab1.Text = "YouTube";
-            this.tab1.UseVisualStyleBackColor = true;
+            this.yt.Controls.Add(this.lblStatus);
+            this.yt.Controls.Add(this.lblProgress);
+            this.yt.Controls.Add(this.pbDownload);
+            this.yt.Controls.Add(this.btnDownload);
+            this.yt.Controls.Add(this.lblVideoTitle);
+            this.yt.Controls.Add(this.btnLoad);
+            this.yt.Controls.Add(this.tbLink);
+            this.yt.Controls.Add(this.label2);
+            this.yt.Location = new System.Drawing.Point(4, 25);
+            this.yt.Margin = new System.Windows.Forms.Padding(4);
+            this.yt.Name = "yt";
+            this.yt.Padding = new System.Windows.Forms.Padding(4);
+            this.yt.Size = new System.Drawing.Size(648, 492);
+            this.yt.TabIndex = 0;
+            this.yt.Text = "YouTube";
+            this.yt.UseVisualStyleBackColor = true;
             // 
             // lblStatus
             // 
@@ -175,24 +177,24 @@
             this.label2.TabIndex = 0;
             this.label2.Text = "Link:";
             // 
-            // tab2
+            // vidconv
             // 
-            this.tab2.Controls.Add(this.lblStat);
-            this.tab2.Controls.Add(this.lblPickedFile);
-            this.tab2.Controls.Add(this.label3);
-            this.tab2.Controls.Add(this.cbDeleteOriginal);
-            this.tab2.Controls.Add(this.btnPickFile);
-            this.tab2.Controls.Add(this.btnConvert);
-            this.tab2.Controls.Add(this.tbMain);
-            this.tab2.Controls.Add(this.cbMusic);
-            this.tab2.Controls.Add(this.cbVideo);
-            this.tab2.Location = new System.Drawing.Point(4, 25);
-            this.tab2.Margin = new System.Windows.Forms.Padding(4);
-            this.tab2.Name = "tab2";
-            this.tab2.Size = new System.Drawing.Size(648, 492);
-            this.tab2.TabIndex = 1;
-            this.tab2.Text = "Video Converter";
-            this.tab2.UseVisualStyleBackColor = true;
+            this.vidconv.Controls.Add(this.lblStat);
+            this.vidconv.Controls.Add(this.lblPickedFile);
+            this.vidconv.Controls.Add(this.label3);
+            this.vidconv.Controls.Add(this.cbDeleteOriginal);
+            this.vidconv.Controls.Add(this.btnPickFile);
+            this.vidconv.Controls.Add(this.btnConvert);
+            this.vidconv.Controls.Add(this.tbMain);
+            this.vidconv.Controls.Add(this.cbMusic);
+            this.vidconv.Controls.Add(this.cbVideo);
+            this.vidconv.Location = new System.Drawing.Point(4, 25);
+            this.vidconv.Margin = new System.Windows.Forms.Padding(4);
+            this.vidconv.Name = "vidconv";
+            this.vidconv.Size = new System.Drawing.Size(648, 492);
+            this.vidconv.TabIndex = 1;
+            this.vidconv.Text = "Video Converter";
+            this.vidconv.UseVisualStyleBackColor = true;
             // 
             // lblStat
             // 
@@ -290,6 +292,15 @@
             this.cbVideo.Text = "Video";
             this.cbVideo.UseVisualStyleBackColor = true;
             // 
+            // mp34tag
+            // 
+            this.mp34tag.Location = new System.Drawing.Point(4, 25);
+            this.mp34tag.Name = "mp34tag";
+            this.mp34tag.Size = new System.Drawing.Size(648, 492);
+            this.mp34tag.TabIndex = 2;
+            this.mp34tag.Text = "MP3 & MP4 tag editor";
+            this.mp34tag.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -303,10 +314,10 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "VideoConverter";
             this.tabControl1.ResumeLayout(false);
-            this.tab1.ResumeLayout(false);
-            this.tab1.PerformLayout();
-            this.tab2.ResumeLayout(false);
-            this.tab2.PerformLayout();
+            this.yt.ResumeLayout(false);
+            this.yt.PerformLayout();
+            this.vidconv.ResumeLayout(false);
+            this.vidconv.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -316,7 +327,7 @@
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TabControl tabControl1;
-        private System.Windows.Forms.TabPage tab1;
+        private System.Windows.Forms.TabPage yt;
         private System.Windows.Forms.Label lblProgress;
         private System.Windows.Forms.ProgressBar pbDownload;
         private System.Windows.Forms.Button btnDownload;
@@ -324,7 +335,7 @@
         private System.Windows.Forms.Button btnLoad;
         private System.Windows.Forms.TextBox tbLink;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TabPage tab2;
+        private System.Windows.Forms.TabPage vidconv;
         private System.Windows.Forms.Label lblPickedFile;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.CheckBox cbDeleteOriginal;
@@ -335,6 +346,7 @@
         private System.Windows.Forms.CheckBox cbVideo;
         private System.Windows.Forms.Label lblStatus;
         private System.Windows.Forms.Label lblStat;
+        private System.Windows.Forms.TabPage mp34tag;
     }
 }
 

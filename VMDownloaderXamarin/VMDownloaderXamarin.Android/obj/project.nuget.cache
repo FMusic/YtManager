@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "EYSgf2LCIA3oGbuUVTAx1il3g+n6JLo/ox7pitbRQl4lddefwoSiuesxuofyRWKJOdbZ6FHj5Q0lAI8WFz86LQ==",
+  "dgSpecHash": "d2+lF4CHnSRccLlnQvt7oI7fJsQsH726y/M7tuWbSRaPbwsWYB0J0geOVfJcl7y4fIypFd46MgCN4x4HvzrYfQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\frane\\source\\repos\\VMDownloaderXamarin\\VMDownloaderXamarin.Android\\VMDownloaderXamarin.Android.csproj",
+  "projectFilePath": "C:\\Users\\frane\\source\\repos\\FMusic\\YtManager\\VMDownloaderXamarin\\VMDownloaderXamarin.Android\\VMDownloaderXamarin.Android.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\frane\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.android.arch.core.common\\1.1.1.3\\xamarin.android.arch.core.common.1.1.1.3.nupkg.sha512",

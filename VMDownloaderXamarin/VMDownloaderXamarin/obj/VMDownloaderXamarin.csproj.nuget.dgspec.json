@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\frane\\source\\repos\\VMDownloaderXamarin\\VMDownloaderXamarin\\VMDownloaderXamarin.csproj": {}
+    "C:\\Users\\frane\\source\\repos\\FMusic\\YtManager\\VMDownloaderXamarin\\VMDownloaderXamarin\\VMDownloaderXamarin.csproj": {}
   },
   "projects": {
-    "C:\\Users\\frane\\source\\repos\\VMDownloaderXamarin\\VMDownloaderXamarin\\VMDownloaderXamarin.csproj": {
+    "C:\\Users\\frane\\source\\repos\\FMusic\\YtManager\\VMDownloaderXamarin\\VMDownloaderXamarin\\VMDownloaderXamarin.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\frane\\source\\repos\\VMDownloaderXamarin\\VMDownloaderXamarin\\VMDownloaderXamarin.csproj",
+        "projectUniqueName": "C:\\Users\\frane\\source\\repos\\FMusic\\YtManager\\VMDownloaderXamarin\\VMDownloaderXamarin\\VMDownloaderXamarin.csproj",
         "projectName": "VMDownloaderXamarin",
-        "projectPath": "C:\\Users\\frane\\source\\repos\\VMDownloaderXamarin\\VMDownloaderXamarin\\VMDownloaderXamarin.csproj",
+        "projectPath": "C:\\Users\\frane\\source\\repos\\FMusic\\YtManager\\VMDownloaderXamarin\\VMDownloaderXamarin\\VMDownloaderXamarin.csproj",
         "packagesPath": "C:\\Users\\frane\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\frane\\source\\repos\\VMDownloaderXamarin\\VMDownloaderXamarin\\obj\\",
+        "outputPath": "C:\\Users\\frane\\source\\repos\\FMusic\\YtManager\\VMDownloaderXamarin\\VMDownloaderXamarin\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"

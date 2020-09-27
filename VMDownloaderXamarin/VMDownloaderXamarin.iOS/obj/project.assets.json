@@ -1024,11 +1024,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\frane\\source\\repos\\VMDownloaderXamarin\\VMDownloaderXamarin.iOS\\VMDownloaderXamarin.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\frane\\source\\repos\\FMusic\\YtManager\\VMDownloaderXamarin\\VMDownloaderXamarin.iOS\\VMDownloaderXamarin.iOS.csproj",
       "projectName": "VMDownloaderXamarin.iOS",
-      "projectPath": "C:\\Users\\frane\\source\\repos\\VMDownloaderXamarin\\VMDownloaderXamarin.iOS\\VMDownloaderXamarin.iOS.csproj",
+      "projectPath": "C:\\Users\\frane\\source\\repos\\FMusic\\YtManager\\VMDownloaderXamarin\\VMDownloaderXamarin.iOS\\VMDownloaderXamarin.iOS.csproj",
       "packagesPath": "C:\\Users\\frane\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\frane\\source\\repos\\VMDownloaderXamarin\\VMDownloaderXamarin.iOS\\obj\\",
+      "outputPath": "C:\\Users\\frane\\source\\repos\\FMusic\\YtManager\\VMDownloaderXamarin\\VMDownloaderXamarin.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -1049,8 +1049,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\frane\\source\\repos\\VMDownloaderXamarin\\VMDownloaderXamarin\\VMDownloaderXamarin.csproj": {
-              "projectPath": "C:\\Users\\frane\\source\\repos\\VMDownloaderXamarin\\VMDownloaderXamarin\\VMDownloaderXamarin.csproj"
+            "C:\\Users\\frane\\source\\repos\\FMusic\\YtManager\\VMDownloaderXamarin\\VMDownloaderXamarin\\VMDownloaderXamarin.csproj": {
+              "projectPath": "C:\\Users\\frane\\source\\repos\\FMusic\\YtManager\\VMDownloaderXamarin\\VMDownloaderXamarin\\VMDownloaderXamarin.csproj"
             }
           }
         }

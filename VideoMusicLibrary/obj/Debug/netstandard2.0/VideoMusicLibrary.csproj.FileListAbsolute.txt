@@ -9,3 +9,14 @@ C:\Users\frane\source\repos\VideoMusicLibrary\obj\Debug\netstandard2.0\VideoMusi
 C:\Users\frane\source\repos\VideoMusicLibrary\obj\Debug\netstandard2.0\VideoMusicLibrary.csproj.CoreCompileInputs.cache
 C:\Users\frane\source\repos\VideoMusicLibrary\obj\Debug\netstandard2.0\VideoMusicLibrary.imgs.resources
 C:\Users\frane\source\repos\VideoMusicLibrary\obj\Debug\netstandard2.0\VideoMusicLibrary.csproj.GenerateResource.cache
+C:\Users\frane\source\repos\FMusic\YtManager\VideoMusicLibrary\bin\Debug\netstandard2.0\VideoMusicLibrary.deps.json
+C:\Users\frane\source\repos\FMusic\YtManager\VideoMusicLibrary\bin\Debug\netstandard2.0\VideoMusicLibrary.dll
+C:\Users\frane\source\repos\FMusic\YtManager\VideoMusicLibrary\bin\Debug\netstandard2.0\VideoMusicLibrary.pdb
+C:\Users\frane\source\repos\FMusic\YtManager\VideoMusicLibrary\obj\Debug\netstandard2.0\VideoMusicLibrary.csprojAssemblyReference.cache
+C:\Users\frane\source\repos\FMusic\YtManager\VideoMusicLibrary\obj\Debug\netstandard2.0\VideoMusicLibrary.imgs.resources
+C:\Users\frane\source\repos\FMusic\YtManager\VideoMusicLibrary\obj\Debug\netstandard2.0\VideoMusicLibrary.csproj.GenerateResource.cache
+C:\Users\frane\source\repos\FMusic\YtManager\VideoMusicLibrary\obj\Debug\netstandard2.0\VideoMusicLibrary.csproj.CoreCompileInputs.cache
+C:\Users\frane\source\repos\FMusic\YtManager\VideoMusicLibrary\obj\Debug\netstandard2.0\VideoMusicLibrary.AssemblyInfoInputs.cache
+C:\Users\frane\source\repos\FMusic\YtManager\VideoMusicLibrary\obj\Debug\netstandard2.0\VideoMusicLibrary.AssemblyInfo.cs
+C:\Users\frane\source\repos\FMusic\YtManager\VideoMusicLibrary\obj\Debug\netstandard2.0\VideoMusicLibrary.dll
+C:\Users\frane\source\repos\FMusic\YtManager\VideoMusicLibrary\obj\Debug\netstandard2.0\VideoMusicLibrary.pdb

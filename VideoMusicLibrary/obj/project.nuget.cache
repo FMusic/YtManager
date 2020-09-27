@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "DYpOGa9FO511pDl5eQA3BHC3gj3HK32KKFY1sNX176gvUab0NBcDJn+tU685Cigimv9nnRqSAML4VgPhqZ7Ujw==",
+  "dgSpecHash": "3EF9JuUl1v0QcLNOHpH0TtXxy36MqgG1Y7QSQjv9t0amBGWgppsR0eXBRjgr54QM+v1UNRMqd1dbFlnGycwOcw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\frane\\source\\repos\\VideoMusicLibrary\\VideoMusicLibrary.csproj",
+  "projectFilePath": "C:\\Users\\frane\\source\\repos\\FMusic\\YtManager\\VideoMusicLibrary\\VideoMusicLibrary.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\frane\\.nuget\\packages\\mediatoolkit\\1.1.0.1\\mediatoolkit.1.1.0.1.nupkg.sha512",
     "C:\\Users\\frane\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",

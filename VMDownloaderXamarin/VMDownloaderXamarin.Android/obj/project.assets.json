@@ -1940,11 +1940,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\frane\\source\\repos\\VMDownloaderXamarin\\VMDownloaderXamarin.Android\\VMDownloaderXamarin.Android.csproj",
+      "projectUniqueName": "C:\\Users\\frane\\source\\repos\\FMusic\\YtManager\\VMDownloaderXamarin\\VMDownloaderXamarin.Android\\VMDownloaderXamarin.Android.csproj",
       "projectName": "VMDownloaderXamarin.Android",
-      "projectPath": "C:\\Users\\frane\\source\\repos\\VMDownloaderXamarin\\VMDownloaderXamarin.Android\\VMDownloaderXamarin.Android.csproj",
+      "projectPath": "C:\\Users\\frane\\source\\repos\\FMusic\\YtManager\\VMDownloaderXamarin\\VMDownloaderXamarin.Android\\VMDownloaderXamarin.Android.csproj",
       "packagesPath": "C:\\Users\\frane\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\frane\\source\\repos\\VMDownloaderXamarin\\VMDownloaderXamarin.Android\\obj\\",
+      "outputPath": "C:\\Users\\frane\\source\\repos\\FMusic\\YtManager\\VMDownloaderXamarin\\VMDownloaderXamarin.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -1965,8 +1965,8 @@
       "frameworks": {
         "monoandroid90": {
           "projectReferences": {
-            "C:\\Users\\frane\\source\\repos\\VMDownloaderXamarin\\VMDownloaderXamarin\\VMDownloaderXamarin.csproj": {
-              "projectPath": "C:\\Users\\frane\\source\\repos\\VMDownloaderXamarin\\VMDownloaderXamarin\\VMDownloaderXamarin.csproj"
+            "C:\\Users\\frane\\source\\repos\\FMusic\\YtManager\\VMDownloaderXamarin\\VMDownloaderXamarin\\VMDownloaderXamarin.csproj": {
+              "projectPath": "C:\\Users\\frane\\source\\repos\\FMusic\\YtManager\\VMDownloaderXamarin\\VMDownloaderXamarin\\VMDownloaderXamarin.csproj"
             }
           }
         }
