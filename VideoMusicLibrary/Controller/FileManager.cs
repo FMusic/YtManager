@@ -13,18 +13,16 @@ namespace VideoMusicLibrary.Controller
 
         private Stream s;
 
-        public async Task OpenFile(string filename)
+        public void OpenFile(string filepath)
         {
-            string path = Environment.GetFolderPath(Environment.SpecialFolder.MyVideos);
-            path = path + filename;
-            s = File.OpenWrite(path);
+            s = File.OpenWrite(filepath);
         }
 
         public async Task WriteToFile(byte[] buffer, int read)
         {
             if (s!= null)
             {
-                s.Write(buffer, 0, read);
+                await s.WriteAsync(buffer, 0, read);
             }
             else
             {

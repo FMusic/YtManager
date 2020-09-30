@@ -59,6 +59,14 @@
             "Xabe.FFmpeg": {
               "target": "Package",
               "version": "[4.3.1, )"
+            },
+            "YoutubeExplode": {
+              "target": "Package",
+              "version": "[5.1.6, )"
+            },
+            "taglib-sharp-netstandard2.0": {
+              "target": "Package",
+              "version": "[2.1.0, )"
             }
           },
           "imports": [

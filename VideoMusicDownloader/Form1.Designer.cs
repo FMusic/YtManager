@@ -51,9 +51,24 @@
             this.cbMusic = new System.Windows.Forms.CheckBox();
             this.cbVideo = new System.Windows.Forms.CheckBox();
             this.mp34tag = new System.Windows.Forms.TabPage();
+            this.lbTags = new System.Windows.Forms.ListBox();
+            this.tbGenre = new System.Windows.Forms.TextBox();
+            this.tbAlbum = new System.Windows.Forms.TextBox();
+            this.tbAlbumArtist = new System.Windows.Forms.TextBox();
+            this.tbArtist = new System.Windows.Forms.TextBox();
+            this.tbTrackTitle = new System.Windows.Forms.TextBox();
+            this.label8 = new System.Windows.Forms.Label();
+            this.btnMakePlaylist = new System.Windows.Forms.Button();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.btnSaveTags = new System.Windows.Forms.Button();
+            this.btnSelectTagFiles = new System.Windows.Forms.Button();
             this.tabControl1.SuspendLayout();
             this.yt.SuspendLayout();
             this.vidconv.SuspendLayout();
+            this.mp34tag.SuspendLayout();
             this.SuspendLayout();
             // 
             // label1
@@ -294,12 +309,149 @@
             // 
             // mp34tag
             // 
+            this.mp34tag.Controls.Add(this.lbTags);
+            this.mp34tag.Controls.Add(this.tbGenre);
+            this.mp34tag.Controls.Add(this.tbAlbum);
+            this.mp34tag.Controls.Add(this.tbAlbumArtist);
+            this.mp34tag.Controls.Add(this.tbArtist);
+            this.mp34tag.Controls.Add(this.tbTrackTitle);
+            this.mp34tag.Controls.Add(this.label8);
+            this.mp34tag.Controls.Add(this.btnMakePlaylist);
+            this.mp34tag.Controls.Add(this.label7);
+            this.mp34tag.Controls.Add(this.label6);
+            this.mp34tag.Controls.Add(this.label5);
+            this.mp34tag.Controls.Add(this.label4);
+            this.mp34tag.Controls.Add(this.btnSaveTags);
+            this.mp34tag.Controls.Add(this.btnSelectTagFiles);
             this.mp34tag.Location = new System.Drawing.Point(4, 25);
             this.mp34tag.Name = "mp34tag";
             this.mp34tag.Size = new System.Drawing.Size(648, 492);
             this.mp34tag.TabIndex = 2;
             this.mp34tag.Text = "MP3 & MP4 tag editor";
             this.mp34tag.UseVisualStyleBackColor = true;
+            // 
+            // lbTags
+            // 
+            this.lbTags.FormattingEnabled = true;
+            this.lbTags.ItemHeight = 16;
+            this.lbTags.Location = new System.Drawing.Point(13, 63);
+            this.lbTags.Name = "lbTags";
+            this.lbTags.Size = new System.Drawing.Size(268, 420);
+            this.lbTags.TabIndex = 32;
+            this.lbTags.SelectedIndexChanged += new System.EventHandler(this.lbTags_SelectedIndexChanged);
+            // 
+            // tbGenre
+            // 
+            this.tbGenre.Location = new System.Drawing.Point(441, 172);
+            this.tbGenre.Name = "tbGenre";
+            this.tbGenre.Size = new System.Drawing.Size(172, 22);
+            this.tbGenre.TabIndex = 31;
+            // 
+            // tbAlbum
+            // 
+            this.tbAlbum.Location = new System.Drawing.Point(441, 144);
+            this.tbAlbum.Name = "tbAlbum";
+            this.tbAlbum.Size = new System.Drawing.Size(172, 22);
+            this.tbAlbum.TabIndex = 30;
+            // 
+            // tbAlbumArtist
+            // 
+            this.tbAlbumArtist.Location = new System.Drawing.Point(441, 116);
+            this.tbAlbumArtist.Name = "tbAlbumArtist";
+            this.tbAlbumArtist.Size = new System.Drawing.Size(172, 22);
+            this.tbAlbumArtist.TabIndex = 29;
+            // 
+            // tbArtist
+            // 
+            this.tbArtist.Location = new System.Drawing.Point(441, 88);
+            this.tbArtist.Name = "tbArtist";
+            this.tbArtist.Size = new System.Drawing.Size(172, 22);
+            this.tbArtist.TabIndex = 28;
+            // 
+            // tbTrackTitle
+            // 
+            this.tbTrackTitle.Location = new System.Drawing.Point(441, 60);
+            this.tbTrackTitle.Name = "tbTrackTitle";
+            this.tbTrackTitle.Size = new System.Drawing.Size(172, 22);
+            this.tbTrackTitle.TabIndex = 27;
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(383, 175);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(52, 17);
+            this.label8.TabIndex = 26;
+            this.label8.Text = "Genre:";
+            // 
+            // btnMakePlaylist
+            // 
+            this.btnMakePlaylist.Location = new System.Drawing.Point(367, 380);
+            this.btnMakePlaylist.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnMakePlaylist.Name = "btnMakePlaylist";
+            this.btnMakePlaylist.Size = new System.Drawing.Size(268, 43);
+            this.btnMakePlaylist.TabIndex = 25;
+            this.btnMakePlaylist.Text = "Make Playlist From Files";
+            this.btnMakePlaylist.UseVisualStyleBackColor = true;
+            this.btnMakePlaylist.Click += new System.EventHandler(this.btnMakePlaylist_Click);
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(384, 147);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(51, 17);
+            this.label7.TabIndex = 24;
+            this.label7.Text = "Album:";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(356, 63);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(79, 17);
+            this.label6.TabIndex = 23;
+            this.label6.Text = "Track Title:";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(348, 119);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(87, 17);
+            this.label5.TabIndex = 22;
+            this.label5.Text = "Album Artist:";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(391, 91);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(44, 17);
+            this.label4.TabIndex = 21;
+            this.label4.Text = "Artist:";
+            // 
+            // btnSaveTags
+            // 
+            this.btnSaveTags.Location = new System.Drawing.Point(367, 438);
+            this.btnSaveTags.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnSaveTags.Name = "btnSaveTags";
+            this.btnSaveTags.Size = new System.Drawing.Size(268, 43);
+            this.btnSaveTags.TabIndex = 19;
+            this.btnSaveTags.Text = "Save Tags";
+            this.btnSaveTags.UseVisualStyleBackColor = true;
+            this.btnSaveTags.Click += new System.EventHandler(this.btnSaveTags_Click);
+            // 
+            // btnSelectTagFiles
+            // 
+            this.btnSelectTagFiles.Location = new System.Drawing.Point(13, 12);
+            this.btnSelectTagFiles.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnSelectTagFiles.Name = "btnSelectTagFiles";
+            this.btnSelectTagFiles.Size = new System.Drawing.Size(268, 43);
+            this.btnSelectTagFiles.TabIndex = 18;
+            this.btnSelectTagFiles.Text = "Pick File(s)";
+            this.btnSelectTagFiles.UseVisualStyleBackColor = true;
+            this.btnSelectTagFiles.Click += new System.EventHandler(this.btnSelectTagFiles_Click);
             // 
             // Form1
             // 
@@ -318,6 +470,8 @@
             this.yt.PerformLayout();
             this.vidconv.ResumeLayout(false);
             this.vidconv.PerformLayout();
+            this.mp34tag.ResumeLayout(false);
+            this.mp34tag.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -347,6 +501,20 @@
         private System.Windows.Forms.Label lblStatus;
         private System.Windows.Forms.Label lblStat;
         private System.Windows.Forms.TabPage mp34tag;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Button btnSaveTags;
+        private System.Windows.Forms.Button btnSelectTagFiles;
+        private System.Windows.Forms.TextBox tbGenre;
+        private System.Windows.Forms.TextBox tbAlbum;
+        private System.Windows.Forms.TextBox tbAlbumArtist;
+        private System.Windows.Forms.TextBox tbArtist;
+        private System.Windows.Forms.TextBox tbTrackTitle;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Button btnMakePlaylist;
+        private System.Windows.Forms.ListBox lbTags;
     }
 }
 

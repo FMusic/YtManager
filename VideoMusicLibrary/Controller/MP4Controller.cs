@@ -13,7 +13,8 @@ namespace VideoMusicDownloader.Controller
 {
     public class MP4Controller
     {
-
+        private static Engine engine;
+        public static bool running = false;
         public static async Task<bool> BreakDownFileAndSave(string filename, string[] lines, bool video, bool music, bool deleteOriginal, IProgress<string> progress)
         {
             TimeSpan dur; IList<YoutubeTime> ytTimes;
@@ -61,11 +62,13 @@ namespace VideoMusicDownloader.Controller
         {
             await Task.Run(() =>
             {
-                using (var engine = new Engine())
+                using (engine = new Engine())
                 {
+                    running = true;
                     var options = new ConversionOptions();
                     var outputFile = new MediaFile(outputName + FileManager.extMusic);
                     engine.Convert(inputFile, outputFile);
+                    running = false;
                 }
             });
         }
@@ -73,12 +76,14 @@ namespace VideoMusicDownloader.Controller
         private static async Task SaveVideoAsync(YoutubeTime ytTime, MediaFile inputFile, string outputName)
         {
             await Task.Run(() => {
-                using (var engine = new Engine())
+                using (engine = new Engine())
                 {
+                    running = true;
                     var options = new ConversionOptions();
                     var outputFile = new MediaFile(outputName + FileManager.extVideo);
                     options.CutMedia(ytTime.FromTime, ytTime.Duration);
                     engine.Convert(inputFile, outputFile, options);
+                    running = false;
                 }
             });
         }
@@ -121,11 +126,18 @@ namespace VideoMusicDownloader.Controller
             {
                 Filename = filename
             };
-            using (var engine = new Engine())
+            using (engine = new Engine())
             {
+                running = true;
                 engine.GetMetadata(inputFile);
+                running = false;
             }
             return inputFile.Metadata.Duration;
+        }
+
+        public static void Stop()
+        {
+            engine.Dispose();
         }
     }
 }

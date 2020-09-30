@@ -1,15 +1,27 @@
 {
   "version": 2,
-  "dgSpecHash": "3EF9JuUl1v0QcLNOHpH0TtXxy36MqgG1Y7QSQjv9t0amBGWgppsR0eXBRjgr54QM+v1UNRMqd1dbFlnGycwOcw==",
+  "dgSpecHash": "MJrUHrZUJKVgwcMGoLHFOTOX3oC4lioyCRy52arWV9iD7QzOS5koJlID8xwBNvIXKvkTjK0iN7TpbvdNNvZJrQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\frane\\source\\repos\\FMusic\\YtManager\\VideoMusicLibrary\\VideoMusicLibrary.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\frane\\.nuget\\packages\\anglesharp\\0.14.0\\anglesharp.0.14.0.nupkg.sha512",
     "C:\\Users\\frane\\.nuget\\packages\\mediatoolkit\\1.1.0.1\\mediatoolkit.1.1.0.1.nupkg.sha512",
+    "C:\\Users\\frane\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.0\\microsoft.bcl.asyncinterfaces.1.1.0.nupkg.sha512",
     "C:\\Users\\frane\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\frane\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
     "C:\\Users\\frane\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\frane\\.nuget\\packages\\system.buffers\\4.5.0\\system.buffers.4.5.0.nupkg.sha512",
+    "C:\\Users\\frane\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
+    "C:\\Users\\frane\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\frane\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.7.0\\system.runtime.compilerservices.unsafe.4.7.0.nupkg.sha512",
+    "C:\\Users\\frane\\.nuget\\packages\\system.text.encoding.codepages\\4.5.0\\system.text.encoding.codepages.4.5.0.nupkg.sha512",
+    "C:\\Users\\frane\\.nuget\\packages\\system.text.encodings.web\\4.7.0\\system.text.encodings.web.4.7.0.nupkg.sha512",
+    "C:\\Users\\frane\\.nuget\\packages\\system.text.json\\4.7.1\\system.text.json.4.7.1.nupkg.sha512",
+    "C:\\Users\\frane\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.3\\system.threading.tasks.extensions.4.5.3.nupkg.sha512",
+    "C:\\Users\\frane\\.nuget\\packages\\taglib-sharp-netstandard2.0\\2.1.0\\taglib-sharp-netstandard2.0.2.1.0.nupkg.sha512",
     "C:\\Users\\frane\\.nuget\\packages\\videolibrary\\3.0.6\\videolibrary.3.0.6.nupkg.sha512",
-    "C:\\Users\\frane\\.nuget\\packages\\xabe.ffmpeg\\4.3.1\\xabe.ffmpeg.4.3.1.nupkg.sha512"
+    "C:\\Users\\frane\\.nuget\\packages\\xabe.ffmpeg\\4.3.1\\xabe.ffmpeg.4.3.1.nupkg.sha512",
+    "C:\\Users\\frane\\.nuget\\packages\\youtubeexplode\\5.1.6\\youtubeexplode.5.1.6.nupkg.sha512"
   ],
   "logs": [
     {

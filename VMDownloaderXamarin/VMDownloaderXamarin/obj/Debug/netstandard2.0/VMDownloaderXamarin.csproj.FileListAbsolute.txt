@@ -1,0 +1,7 @@
+C:\Users\frane\source\repos\FMusic\YtManager\VMDownloaderXamarin\VMDownloaderXamarin\bin\Debug\netstandard2.0\VMDownloaderXamarin.deps.json
+C:\Users\frane\source\repos\FMusic\YtManager\VMDownloaderXamarin\VMDownloaderXamarin\bin\Debug\netstandard2.0\VMDownloaderXamarin.dll
+C:\Users\frane\source\repos\FMusic\YtManager\VMDownloaderXamarin\VMDownloaderXamarin\obj\Debug\netstandard2.0\VMDownloaderXamarin.csprojAssemblyReference.cache
+C:\Users\frane\source\repos\FMusic\YtManager\VMDownloaderXamarin\VMDownloaderXamarin\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\frane\source\repos\FMusic\YtManager\VMDownloaderXamarin\VMDownloaderXamarin\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\frane\source\repos\FMusic\YtManager\VMDownloaderXamarin\VMDownloaderXamarin\obj\Debug\netstandard2.0\VMDownloaderXamarin.AssemblyInfoInputs.cache
+C:\Users\frane\source\repos\FMusic\YtManager\VMDownloaderXamarin\VMDownloaderXamarin\obj\Debug\netstandard2.0\VMDownloaderXamarin.AssemblyInfo.cs
