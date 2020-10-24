@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Net.Http;
+using System.Threading;
 using System.Threading.Tasks;
 using VideoLibrary;
 using VideoMusicLibrary;
@@ -15,8 +16,11 @@ namespace VideoMusicDownloader.Controller
     public class YouTubeController
     {
         public static readonly string playlistString = "playlist";
+        private static HttpClient client;
+
         public static async Task<IList<VideoInfo>> LoadVideoAsync(string link, int numOfVideos)
         {
+            InitClient();
             if (link.Contains(playlistString))
             {
                 var linkPlaylist = link.Split("=".ToCharArray())[1];
@@ -30,19 +34,40 @@ namespace VideoMusicDownloader.Controller
 
         private static async Task<IList<VideoInfo>> LoadSingleFile(string link)
         {
-            var list = new List<VideoInfo>();
+            var list = new List<VideoInfo>
+            {
+                await GetInfoAsync(link)
+            }; 
+            return list;
+        }
+
+        private static async Task<IList<VideoInfo>> LoadPlaylist(string playlistId, int numOfVideos)
+        {
+            var ret = new List<VideoInfo>();
+            var yt = new YoutubeClient();
+            var plVideos = await yt.Playlists.GetVideosAsync(playlistId);
+            foreach (var vid in plVideos)
+            {
+                ret.Add(await GetInfoAsync(vid.Url));
+            }
+            return ret;
+        }
+
+
+        private static async Task<VideoInfo> GetInfoAsync(string link)
+        {
             var info = new VideoInfo();
-            using (var client = new HttpClient())
+            link = link.Replace("https", "http");
+            Thread.Sleep(3000);
+            try
             {
                 var video = await YouTube.Default.GetVideoAsync(link);
-                link = link.Replace("https", "http");
-                client.BaseAddress = new Uri(link);
                 info.VideoUri = new Uri(video.Uri);
-                info = await GetTotalBytes(info, client);
                 info = getTitle(info, video);
-                list.Add(info);
+            } catch (Exception ex) {
+                Console.WriteLine(ex.Message);
             }
-            return list;
+            return info;
         }
 
         private static VideoInfo getTitle(VideoInfo info, YouTubeVideo video)
@@ -53,12 +78,13 @@ namespace VideoMusicDownloader.Controller
             }
             catch (ArgumentOutOfRangeException)
             {
+                Console.WriteLine("Video doesn't end with - Youtube");
                 info.VideoName = video.Title;
             }
             return info;
         }
 
-        private static async Task<VideoInfo> GetTotalBytes(VideoInfo info, HttpClient client)
+        private static async Task<VideoInfo> GetTotalBytes(VideoInfo info)
         {
             using (var req = new HttpRequestMessage(HttpMethod.Head, info.VideoUri))
             {
@@ -67,39 +93,12 @@ namespace VideoMusicDownloader.Controller
             return info;
         }
 
-        private static async Task<IList<VideoInfo>> LoadPlaylist(string playlistId, int numOfVideos)
-        {
-            var ret = new List<VideoInfo>();
-            var yt = new YoutubeClient();
-            var pl = await yt.Playlists.GetAsync(playlistId);
-            var plVideos = await yt.Playlists.GetVideosAsync(playlistId);
-            using (var client = new HttpClient())
-            {
-                foreach (var vid in plVideos)
-                {
-                    var aa = vid.Url.Replace("https", "http");
-                    var uri = new Uri(aa);
-                    client.BaseAddress = uri;
-                    var video = await YouTube.Default.GetVideoAsync(vid.Url);
-
-                    VideoInfo vi = new VideoInfo
-                    {
-                        VideoUri = uri
-                    };
-                    vi = getTitle(vi, video);
-                    vi = await GetTotalBytes(vi, client);
-                    ret.Add(vi);
-                }
-            }
-            return ret;
-        }
-
         public async static Task DownloadAndSaveAsync(string fileName, Uri videoUri, IProgress<int> progress)
         {
+            InitClient();
             int totalRead = 0;
             int read;
             byte[] buffer = new byte[16 * 1024];
-            var client = new HttpClient();
             long? totalByte;
             await Task.Run(async () =>
             {
@@ -121,6 +120,17 @@ namespace VideoMusicDownloader.Controller
                 fm.CloseFile();
                 client.Dispose();
             });
+        }
+
+        private static void InitClient()
+        {
+            if (client == null)
+            {
+                client = new HttpClient
+                {
+                    BaseAddress = new Uri("http://www.youtube.com")
+                };
+            }
         }
     }
 }
